@@ -1,0 +1,38 @@
+.footer{
+    padding-bottom: 20px;
+
+    .container{
+
+        .teste{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        span{
+            margin-right: 10px;
+            font-weight: bolder;
+            color: #000000;
+        }
+
+        .redes{
+            display: flex;
+            align-items: center;
+        }
+
+        .whatsapp{
+            color: #54ff48;
+        }
+
+        .github{
+            margin-right: 10px;
+            color: #000000;
+        }
+
+        .linkedin{
+            color: #0800ff;
+        }
+    }
+}
+
+
+
