@@ -3,37 +3,61 @@
     font-family: "Poppins", sans-serif;
 
     .container{
+        display: flex;
+        justify-content: space-between;
 
-        .teste{
-            display: flex;
-            justify-content: space-between;
-        }
 
         span{
             margin-right: 10px;
-            font-weight: bolder;
+            font-weight: bold;
             color: #000000;
-        }
-
-        .redes{
-            display: flex;
-            align-items: center;
+            font-size: 16px;
         }
 
         .whatsapp{
             color: #54ff48;
+            font-size: 20px;
         }
 
         .github{
             margin-right: 10px;
             color: #000000;
+            font-size: 20px;
         }
 
         .linkedin{
             color: #0800ff;
+            font-size: 20px;
         }
     }
 }
+
+@media(max-width: 768px) {
+
+    .footer{
+
+        .container{
+            display: block;
+
+            .redes{
+                margin-top: 10px;
+            }
+            }
+    }
+}
+
+@media(max-width: 1024px) {
+
+    .footer{
+
+        .container{
+            display: flex;
+            align-items: center;
+            }
+    }
+}
+
+
 
 
 
