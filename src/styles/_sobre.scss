@@ -1,23 +1,24 @@
 .sobre{
-    margin-top: 96px;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif; 
 
     .container{
         text-align: left;
 
         .titulo-primary{
             font-weight: bold;
-            font-size: 38px;
+            font-size: 28px;
             line-height: 150%;
             letter-spacing: 1px;
-            color: #000000;
+            color: #000;
             margin-bottom: 30px;
         }
 
         .text{
         font-size: 16px;
+        font-weight: bold;
         line-height: 150%;
-        color: #000000;
-        text-align: justify;
+        color: #000;
         }
     }
 
@@ -28,16 +29,8 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media(max-width: 768px) {
     .titulo-primary{
     text-align: center;
     }
-
-    .container{
-
-        .text{
-            hyphens: auto;
-        }
-    }
-
 }

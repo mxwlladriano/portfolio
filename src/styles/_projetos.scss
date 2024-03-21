@@ -1,6 +1,7 @@
 .projetos{
-    margin-top: 96px;
+    margin-top: 50px;
     margin-bottom: 96px;
+    font-family: "Poppins", sans-serif;
 
 
     .container{
@@ -19,5 +20,18 @@
             text-decoration: none;
             color: #000;
         }
+        a:hover{
+            color: #fff;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .titulo-segundary{
+    text-align: center;
+    }
+
+    .teste{
+        text-align: block;
     }
 }
